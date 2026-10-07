@@ -1,0 +1,3 @@
+By typing python on terminal, it shows the version if it's already install.
+Then it opens REPL- read evaluation print loop
+In this stage we can write python code on terminal for quick purpose.

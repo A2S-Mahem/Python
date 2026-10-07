@@ -1,0 +1,69 @@
+1. Write a programe to print poem in python.
+2. Use REPL and print the table of 5 using it
+3. Install an external module and use it to perform an operation of your interest.
+4. Write python pograme to print the contents of a directory using the os module.
+    search online for the function which does that.
+5. Lable the programe written in problem 4 with comments. 
+
+Answer:
+
+1.  print('''
+    Twinkle, twinkle, little star
+    How I wonder what you are
+    Up above the world so high
+    Like a diamond in the sky
+    Twinkle, twinkle, little star
+    How I wonder what you are
+    Up above the world so high
+    Like a diamond in the sky
+    ''')
+2.  >>> 5*1
+    5
+    >>> 5*2
+    10
+    >>> 5*3
+    15
+    >>> 5*4
+    20
+    >>> 5*5
+    25
+    >>> 5*6
+    30
+    >>> 5*7
+    35
+    >>> 5*8
+    40
+    >>> 5*9
+    45
+    >>> 5*10
+    50
+    >>>
+3.  PS D:\Python_> python -m pip install pyttsx3 
+    import pyttsx3
+    pyttsx3.speak('''Twinkle, twinkle, little star
+    How I wonder what you are
+    Up above the world so high
+    Like a diamond in the sky
+    Twinkle, twinkle, little star
+    How I wonder what you are
+    Up above the world so high
+    Like a diamond in the sky''')
+4. 
+    import os
+
+    contents = os.listdir()
+    print("Contents of the directory:")
+
+    
+5. 
+    import os
+
+    # Get the contents of the current directory
+    contents = os.listdir()
+
+    # Print the contents
+    print("Contents of the directory:")
+
+    for item in contents:
+        print(item)
+    ```

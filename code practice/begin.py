@@ -9,3 +9,31 @@ pip install pyjokes
 """
 import pyjokes
 print(pyjokes.get_joke())
+print('''
+Twinkle, twinkle, little star
+How I wonder what you are
+Up above the world so high
+Like a diamond in the sky
+Twinkle, twinkle, little star
+How I wonder what you are
+Up above the world so high
+Like a diamond in the sky
+''')
+import pyttsx3
+pyttsx3.speak('''Twinkle, twinkle, little star
+How I wonder what you are
+Up above the world so high
+Like a diamond in the sky
+''')
+
+
+import os
+
+# Get the contents of the current directory
+contents = os.listdir()
+
+# Print the contents
+print("Contents of the directory:")
+
+for item in contents:
+    print(item)
